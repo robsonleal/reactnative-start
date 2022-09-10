@@ -14,5 +14,6 @@ export const Header = styled.ImageBackground`
 `;
 
 export const Title = styled.Text`
+    font-family: ${({ theme }) => theme.FONTS.BOLD};
     font-size: 36px;
 `;  
