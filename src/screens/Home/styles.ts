@@ -4,6 +4,8 @@ export const Container = styled.View`
     flex: 1;
     align-items: center;
     padding-top: 27px;
+
+    background: ${({ theme }) => theme.COLORS.BACKGROUND};
 `;
 
 export const Header = styled.ImageBackground`
