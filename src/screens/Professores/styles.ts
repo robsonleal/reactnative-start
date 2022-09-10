@@ -1,10 +1,8 @@
-import styled from 'styled-components/native';
+import styled from "styled-components/native";
 
 export const Container = styled.View`
     flex: 1;
-    align-items: center;
-    background: ${({ theme }) => theme.COLORS.PRIMARY_700};
-    justify-content: center;
+    background-color: #009900;
 `;
 
 export const TextButton = styled.Text`
